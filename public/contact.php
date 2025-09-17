@@ -1,4 +1,4 @@
-<?php
+<?php 
 // Konfigurasi koneksi ke database
 $host = "localhost";
 $user = "root";
@@ -29,3 +29,4 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 ?>
+
